@@ -1,0 +1,118 @@
+/* #diva1{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+	/* background-color: white;
+	border-radius: 5px;
+	width: 80%;
+	height: 100%;
+	border: 2px solid black;
+} */
+
+#diva2{
+    position: absolute;
+	background-color: white;
+    border: 2px solid black;
+	border-radius: 5px;
+    left: 8%;
+    top: 15%;
+	width: 40%;
+	height: 90%;
+}
+
+#diva3{
+    position: absolute;
+	background-color: white;
+    border: 2px solid black;
+	border-radius: 5px;
+    left: 50%;
+    top: 15%;
+	width: 45%;
+	height: 100%;
+}
+
+#spana1{
+    position: absolute;
+    top: 1%;
+    left: 40%;
+	font-size: 60px;
+}
+
+#imga1{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    width: 20%;
+    height: 20%; 
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.inputa1{
+    position: absolute;
+	left: 10%;
+    width: 80%;
+    height: 15%;
+    background: transparent;
+    border: none;
+    outline: none;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	padding-top: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#inputai1{
+    top: 15%;
+}
+
+#inputai2{
+    top: 30%;
+}
+
+#inputai3{
+    top: 45%;
+}
+
+#inputai4{
+    top: 60%;
+}
+
+#inputai5{
+    top: 75%;
+}
+
+.inputa2{
+    position: absolute;
+	left: 10%;
+    width: 80%;
+    height: 15%;
+    background: transparent;
+    border: none;
+    outline: none;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	padding-top: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#buttona1{
+    position: absolute;
+    font-size: 30px;
+    top: 56%;
+    right: 2%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#buttona1:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#buttona1:hover img{
+    filter: invert(100%)
+}

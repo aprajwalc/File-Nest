@@ -1,0 +1,97 @@
+#editor{
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    width: 86%;
+    height: 72.5%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.editor-content{
+    min-height: 200px; 
+    max-height: 440px; 
+    overflow-y: scroll;
+    color: #333;
+    padding: 1%;
+}
+
+#inputei1{
+    position: absolute;
+    height: 7%;
+    width: 60%;
+    top: 7%;
+    left: 8%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 1%;
+}
+
+.buttone5{
+    position: absolute;
+    height: 7.5%;
+    width: 4%;
+    top: 7%;
+    left: 70%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    padding-top: 0.5%;
+}
+
+.buttone5 img{
+    height: 30px;
+}
+
+.buttone5:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+.buttone5:hover img{
+    filter: invert(100%)
+}
+
+#buttonei7{
+    position: absolute;
+    top: 7%;
+    left: 75%;
+    width: 9%;
+    height: 7.5%;
+    background-color: #f2d2a9;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#buttonei7:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#buttonei8{
+    position: absolute;
+    top: 7%;
+    left: 85%;
+    width: 9%;
+    height: 7.5%;
+    background-color: #f2d2a9;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#buttonei8:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}

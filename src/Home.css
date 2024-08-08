@@ -1,0 +1,496 @@
+#divh1{
+    position: absolute;
+    background-color: #142678;
+    color: #cddfff;
+    height: 25%;
+    width: 100%;
+    z-index: 10;
+}
+
+#divh2{
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 10%;
+    left: 3%;
+    height: 60%;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: left;
+    padding: 1%;
+    font-size: 30px;
+    line-height: 130%;
+    z-index: 0;
+}
+
+#spanh1{
+    position: absolute;
+    font-size: 15px;
+    z-index: 0;
+}
+
+#divh3{
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 70%;
+    left: 87%;
+    width: 12%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 0px black;
+    z-index: 0;
+    text-align: left;
+    line-height: 130%;
+    border-radius: 2px;
+}
+
+#divh4{
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    box-shadow: 0px 5px 20px 0px black;
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+#divh6{
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    background-color: white;
+    /* background: rgba(0, 0, 0, 0.5); */
+    width: 40%;
+    height: 60%;
+    box-shadow: 0px 5px 20px 0px black;
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+#imgh1{
+    width: 6%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 90%;
+    top: 20%;
+}
+
+.buttonh1{
+    position: relative;
+    background-color: #f2d2a9;
+    height: 40px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.buttonh1:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+.buttonh1:focus{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+.ul{
+    list-style-type: none;
+}
+
+#inputh1{
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    top: 27%;
+    left: 2.5%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 1%;
+}
+
+.buttonh3{
+    position: absolute;
+    top: 27%;
+    margin-right: 10px;
+    width: 20%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: #f2d2a9;
+    color: black;
+    z-index: -1;
+}
+
+#buttonhi1{
+    left: 56%;
+}
+
+#buttonhi2{
+    left: 77.5%;
+}
+
+.buttonh3:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+.buttonh3:focus{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#sidebar{
+    position: fixed;
+    top: 0%;
+    left: -20%;
+    width: 20%;
+    height: 100%;
+    z-index: 10;
+    background-color: white;
+    transition: 0.5s ease;
+}
+
+.buttonh2{
+    position: relative;
+    margin-top: 1%;
+    width: 115%;
+    left: -15%;
+    height: 50px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+}
+
+.buttonh2:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+.buttonh2:focus{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#buttonhi7{
+    position: absolute;
+    top: 75%;
+    left: 4%;
+    width: 92.5%;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: #f2d2a9;
+    color: black;
+    padding: 1%;
+    /* padding-top: 2%; */
+}
+
+#buttonhi7:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#buttonhi7:focus{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+.texth1{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    left: -10%;
+    z-index: 0;
+}
+
+#spanh2{
+    position: absolute;
+    top: 38%;
+    width: 95%;
+    height: 7%;
+    left: 2.5%;
+    background-color: #f2d2a9;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.selecth1{
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+#selecthi1{
+    left: 2.5%;
+}
+
+#selecthi2{
+    left: 2.5%;
+}
+
+#selecthi3{
+    left: 57.5%;
+}
+
+#spanh3{
+    font-size: 30px;
+    position: absolute;
+    top: 2%;
+    left: 15%;
+}
+
+#buttonhi3{
+    position: absolute;
+    top: 2%;
+    left: 92%;
+    width: fit-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+}
+
+#labelhi1{
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    width: 90%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: #f2d2a9;
+    color: black;
+    padding: 1%;
+    padding-top: 2%;
+}
+
+#labelhi1:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+.inputh2{
+    position: absolute;
+    left: 4%;
+    width: 90%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    padding: 1%;
+}
+
+#inputhi1{
+    top: 15%;
+}
+
+#inputhi2{
+    top: 30%;
+}
+
+#inputhi7{
+    position: absolute;
+    top: 15%;
+    left: 3.5%;
+    width: 90.5;
+    padding-left: 2%;
+}
+
+#buttonhi4{
+    position: absolute;
+    top: 85%;
+    left: 4%;
+    width: 92.5%;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: #f2d2a9;
+    color: black;
+    padding: 1%;
+    /* padding-top: 2%; */
+}
+
+#buttonhi4:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#filesh1{
+    position: absolute;
+    top: 60%;
+    left: 2.5%;
+    width: 95%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    /* padding: 2%; */
+}
+
+.divfile{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.divfile:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+.divfile:hover button{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+.spanhid{
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 5px;
+    left: -3px;
+    top: -6%;
+    height: 80%;
+    width: 7%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.spanhfname{
+    position: relative;
+    left: 2%;
+}
+
+.spansize{
+    position: absolute;
+    left: 70%;
+}
+
+#delete{
+    position: relative;
+    height: 40px;
+}
+
+#deletebutton{
+    position: absolute;
+    height: 90%;
+    width: 4%;
+    top: 7%;
+    left: 90%;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    padding-top: 0.5%;
+}
+
+#deletebutton:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#deletebutton:hover img{
+    filter: invert(100%)
+}
+
+#spanh4{
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    font-size: 30px;
+}
+
+#selecthi4{
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: 7%;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#inputhi4{
+    top: 55%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 1%;
+}
+
+#spanh5{
+    position: absolute;
+    top: 35%;
+    left: 4%;
+    font-size: 30px;
+}
+
+#selecthi5{
+    position: absolute;
+    top: 35%;
+    left: 51%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: 8%;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#inputhi5{
+    top: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 1%;
+}

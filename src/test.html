@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* Initial styles */
+		input {
+			border: none;
+			/* Remove the default border */
+			position: relative;
+			font-size: 16px;
+			padding: 10px;
+			background-color: transparent;
+			outline: none;
+			/* Remove the focus outline */
+		}
+
+		/* Create a pseudo-element for the animated border */
+		input::before {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			/* Start from the middle */
+			transform: translateX(-50%);
+			width: 0;
+			/* Initially, no width */
+			height: 2px;
+			/* Border thickness */
+			background-color: #000;
+			/* Border color */
+			transition: width 0.3s ease;
+			/* Add a transition for width */
+		}
+
+		/* Styles for when the input is focused (selected) */
+		input:focus::before {
+			width: 100%;
+			/* Expand to the sides */
+		}
+	</style>
+</head>
+
+<script>
+</script>
+
+
+<body>
+	
+	<embed src={} />
+</body>
+
+</html>

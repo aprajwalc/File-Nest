@@ -1,0 +1,72 @@
+{
+  "name": "new",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf/renderer": "^3.1.14",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bcryptjs": "^2.4.3",
+    "blob-to-buffer": "^1.2.9",
+    "code-mirror": "^4.0.1",
+    "codemirror": "^6.0.1",
+    "cors": "^2.8.5",
+    "docxtemplater": "^3.41.0",
+    "draft-js": "^0.11.7",
+    "draft-js-export-html": "^1.4.1",
+    "fbjs": "^3.0.5",
+    "file-saver": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "html-to-draftjs": "^1.5.0",
+    "html2pdf.js": "^0.10.1",
+    "mammoth": "^1.6.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.3",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^3.4.120",
+    "pdfmake": "^0.2.8",
+    "pizzip": "^3.1.4",
+    "react": "^18.2.0",
+    "react-audio-player": "^0.17.0",
+    "react-doc-viewer": "^0.1.5",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-file-viewer": "^0.5.0",
+    "react-h5-audio-player": "^3.9.0",
+    "react-pdf": "^7.5.1",
+    "react-pdf-js": "^5.1.0",
+    "react-player": "^2.13.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "source-map-loader": "^4.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

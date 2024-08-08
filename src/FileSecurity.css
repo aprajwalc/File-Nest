@@ -1,0 +1,71 @@
+#divfs1{
+    position: fixed;
+    background-color: white;
+    width: 50%;
+    height: 70%;
+    left: 25%;
+    top: 15%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#spanfs1{
+    position: absolute;
+    font-size: 30px;
+    left: 25%;
+    top: 5%;
+}
+
+.inputfs1{
+    position: absolute;
+    left: 4%;
+    width: 90%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    padding: 1%;
+}
+
+#inputfsi1{
+    top: 20%;
+}
+
+#inputfsi2{
+    top: 40%;
+}
+
+#inputfsi3{
+    top: 60%;
+}
+
+#buttonfs1{
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    width: 92.5%;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: #f2d2a9;
+    color: black;
+    padding: 1%;
+    /* padding-top: 2%; */
+}
+
+#buttonfs1:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#buttonfs1:focus{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}

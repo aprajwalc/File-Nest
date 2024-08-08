@@ -1,0 +1,12 @@
+CREATE ROLE 'users';
+-- GRANT SELECT(username), UPDATE(username) ON Users TO 'users';
+GRANT SELECT, INSERT, UPDATE, DELETE ON Files TO 'users';
+GRANT SELECT, INSERT, UPDATE, DELETE ON TextContent TO 'users';
+GRANT SELECT, INSERT, UPDATE, DELETE ON BinaryContent TO 'users';
+GRANT SELECT, INSERT, UPDATE, DELETE ON FileSecurity TO 'users';
+GRANT SELECT, INSERT, UPDATE, DELETE ON UserGroups TO 'users';
+GRANT SELECT, INSERT, UPDATE, DELETE ON GroupMembers TO 'users';
+GRANT SELECT, INSERT, UPDATE, DELETE ON SupportSystem TO 'users';
+GRANT SELECT ON Notifications TO 'users';
+
+-- GRANT user TO 'new_user'@'localhost';

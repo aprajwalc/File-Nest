@@ -1,0 +1,160 @@
+#blue{
+    display: flex;
+    background-color: #142678;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+}
+
+#table1{
+    padding: 30px;
+	padding-top: 50px;
+	background-color: white;
+	border-radius: 5%;
+    position: absolute;
+	width: 65%;
+	height: 65%;
+    top: 20%;
+    left: 15%;
+	border: 2px solid #142678;
+}
+
+.input1{
+    width: 90%;
+	height: 10%;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid black;
+    outline: none;
+	font-size: 20px;
+	padding-top: 7%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+}
+
+.input1:focus{
+    border-bottom: 3.5px solid black;
+    transition: 0.5s;
+}
+
+.input::placeholder{
+    font-size: 100px;
+}
+
+#button1{
+	width: 90%;
+	height: 15%;
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	border-radius: 5%;
+	text-align: center;
+	background-color: #f2d2a9;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+}
+
+#spans1{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+	top: 1%;
+	left: 30%;
+	padding: 40px;
+}
+
+#button1:hover{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#button1:focus{
+    background-color: black;
+    color:#cddfff;
+    transition: 1s;
+}
+
+#logos1{
+    position: absolute;
+    top:15%;
+    left: 10%;
+    width: 450px;
+    height: 450px; 
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+@media screen and (max-width: 770px){
+    #blue{
+        top: 20%;
+        left: 0%;
+        width: 100%;
+        height: 80%;
+    }
+
+    #logos1{
+        display: none
+    }
+
+    #spans1{
+        font-size: 40px;
+        top: -25%;
+        left: 23%;
+        padding: 40px;
+        color: #142678;
+    }
+
+    #table1{
+        top: 10%;
+        left: 10%;
+        height: 300px;
+    }
+
+    .input1{
+        font-size: 15px;
+    }
+
+    #button1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #blue{
+        top: 20%;
+        left: 0%;
+        width: 100%;
+        height: 80%;
+    }
+
+    #logos1{
+        display: none
+    }
+
+    #spans1{
+        font-size: 40px;
+        top: -25%;
+        left: 35%;
+        padding: 40px;
+        color: #142678;
+    }
+
+    #table1{
+        top: 10%;
+        left: 20%;
+        height: 70%;
+        width: 50%;
+    }
+
+    .input1{
+        font-size: 15px;
+    }
+
+    #button1{
+        font-size: 20px;
+    }
+}
